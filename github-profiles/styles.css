@@ -1,0 +1,76 @@
+:root {
+    --background: #4A4063;
+    --content: #BFACC8;
+    --text: #BBBAC6;
+}
+
+body {
+    text-align: center;
+    background-color: var(--background);
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+}
+input {
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+}
+button {
+    size: inherit;
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+    height: 41px;
+    margin: 10px auto;
+    padding: none;
+}
+#container {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    background-color: var(--content);
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.3) 0px 15px 12px;
+}
+#content {
+    /* display: none; */
+}
+img {
+    max-width: 20%;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    float: left;
+    margin-left: 15%;
+
+}
+p {
+    display: inline;
+    margin: 20px;
+}
+.email, .website, .twitter {
+    visibility: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+#socials {
+    width: auto;
+    margin: auto;
+    align-items: center;
+    background-color: var(--background);
+    border: none;
+    border-radius: 20px;
+
+}
+.social-item {
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin: 30px;
+}
+.social-item:hover {
+    transform: scale(2);
+}

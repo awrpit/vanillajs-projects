@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Cash Calculator</h1>
+        <h2> Want to know what's your change amount in the least number of notes?</h2>
+
+        <div>
+            <label for="expense-amount"></label> 
+            <p>Enter your Bill Amount here:</p>
+             <input type="number" name="" id="expense-amount">
+            <br>
+            <label for="cash-paid"></label>
+            <p>Cash Paid:</p>
+            <input type="number" id="cash-paid">
+            <br>
+            <button type="submit">Calculate</button>
+        </div>
+        <p id="err"> </p>
+        <div class=bottom-container>
+            <table>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                </tr>
+                <tr>
+                    <th>Notes</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        🚀 Made by Arpit Sharma © 2022
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
